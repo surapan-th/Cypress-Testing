@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'cy:run',
+1 verbose cli   '--',
+1 verbose cli   '--record',
+1 verbose cli   '--key',
+1 verbose cli   'ac53521a-bc26-446d-b871-25c1441bfd38' ]
+2 info using npm@5.6.0
+3 info using node@v8.10.0
+4 verbose stack Error: missing script: cy:run
+4 verbose stack     at run (C:\Program Files\nodejs\node_modules\npm\lib\run-script.js:151:19)
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\run-script.js:61:5
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:115:5
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:402:5
+4 verbose stack     at checkBinReferences_ (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:357:45)
+4 verbose stack     at final (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:400:3)
+4 verbose stack     at then (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:160:5)
+4 verbose stack     at ReadFileContext.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:332:20)
+4 verbose stack     at ReadFileContext.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:420:13)
+5 verbose cwd D:\xampp\htdocs\Cypress
+6 verbose Windows_NT 10.0.17134
+7 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "cy:run" "--" "--record" "--key" "ac53521a-bc26-446d-b871-25c1441bfd38"
+8 verbose node v8.10.0
+9 verbose npm  v5.6.0
+10 error missing script: cy:run
+11 verbose exit [ 1, true ]

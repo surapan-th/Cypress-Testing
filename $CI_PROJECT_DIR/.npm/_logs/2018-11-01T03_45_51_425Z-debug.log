@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'cy:run',
+1 verbose cli   '--',
+1 verbose cli   '--record',
+1 verbose cli   '--key',
+1 verbose cli   'ac53521a-bc26-446d-b871-25c1441bfd38' ]
+2 info using npm@5.6.0
+3 info using node@v8.10.0
+4 verbose run-script [ 'precy:run', 'cy:run', 'postcy:run' ]
+5 info lifecycle cypress-example-kitchensink@1.0.2~precy:run: cypress-example-kitchensink@1.0.2
+6 info lifecycle cypress-example-kitchensink@1.0.2~cy:run: cypress-example-kitchensink@1.0.2
+7 verbose lifecycle cypress-example-kitchensink@1.0.2~cy:run: unsafe-perm in lifecycle true
+8 verbose lifecycle cypress-example-kitchensink@1.0.2~cy:run: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\xampp\htdocs\Cypress\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python3\Scripts\;C:\Python3\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;"C:\Python27\;C:\Python27\Scripts\";"%PATH%;C:\Python27\Scripts";C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\nodejs\;D:\xampp\php;C:\composer;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Windows\System32;C:\Users\surapan\AppData\Local\Yarn\bin
+9 verbose lifecycle cypress-example-kitchensink@1.0.2~cy:run: CWD: D:\xampp\htdocs\Cypress
+10 silly lifecycle cypress-example-kitchensink@1.0.2~cy:run: Args: [ '/d /s /c',
+10 silly lifecycle   'cypress run "--record" "--key" "ac53521a-bc26-446d-b871-25c1441bfd38"' ]
+11 silly lifecycle cypress-example-kitchensink@1.0.2~cy:run: Returned: code: 1  signal: null
+12 info lifecycle cypress-example-kitchensink@1.0.2~cy:run: Failed to exec cy:run script
+13 verbose stack Error: cypress-example-kitchensink@1.0.2 cy:run: `cypress run "--record" "--key" "ac53521a-bc26-446d-b871-25c1441bfd38"`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:285:16)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at EventEmitter.emit (events.js:214:7)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at ChildProcess.emit (events.js:214:7)
+13 verbose stack     at maybeClose (internal/child_process.js:925:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+14 verbose pkgid cypress-example-kitchensink@1.0.2
+15 verbose cwd D:\xampp\htdocs\Cypress
+16 verbose Windows_NT 10.0.17134
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "cy:run" "--" "--record" "--key" "ac53521a-bc26-446d-b871-25c1441bfd38"
+18 verbose node v8.10.0
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error cypress-example-kitchensink@1.0.2 cy:run: `cypress run "--record" "--key" "ac53521a-bc26-446d-b871-25c1441bfd38"`
+22 error Exit status 1
+23 error Failed at the cypress-example-kitchensink@1.0.2 cy:run script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
